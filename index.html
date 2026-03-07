@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classic Snake</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #111;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+    .wrap { text-align: center; }
+    canvas {
+      border: 1px solid #333;
+      background: #000;
+      display: block;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div id="score">Score: 0</div>
+    <div id="status">Press Arrow keys or WASD to start</div>
+    <canvas id="game" width="400" height="400"></canvas>
+  </div>
+
+  <!-- This loads and runs your snake game -->
+  <script src="./snake.js"></script>
+</body>
+</html>
