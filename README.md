@@ -1,1 +1,1 @@
-A classic snake game example, purely from using copilot prompts
+A classic snake game example, practicing using Copilot prompts
