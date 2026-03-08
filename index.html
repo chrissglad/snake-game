@@ -14,20 +14,31 @@
       color: #fff;
       font-family: Arial, sans-serif;
     }
-    .wrap { text-align: center; }
+    .wrap {
+      text-align: center;
+    }
+    .game-frame {
+      margin-top: 10px;
+      padding: 10px;
+      border: 3px solid #6bff8f;
+      border-radius: 8px;
+      background: #0a0a0a;
+      box-shadow: 0 0 18px rgba(107, 255, 143, 0.28);
+    }
     canvas {
-      border: 1px solid #333;
+      border: 1px solid #2f2f2f;
       background: #000;
       display: block;
-      margin-top: 10px;
     }
   </style>
 </head>
 <body>
   <div class="wrap">
-    <div id="score">Score: 0</div>
-    <div id="status">Press Arrow keys or WASD to start</div>
-    <canvas id="game" width="400" height="400"></canvas>
+    <div class="game-frame">
+      <div id="score">Score: 0</div>
+      <div id="status">Press Arrow keys or WASD to start</div>
+      <canvas id="game" width="400" height="400"></canvas>
+    </div>
   </div>
 
   <!-- This loads and runs your snake game -->
